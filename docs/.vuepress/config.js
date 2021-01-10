@@ -7,6 +7,7 @@ module.exports = {
     type: 'blog',
     author: 'yangpanda',
     smoothScroll: true,
+    lastUpdated: "Last Updated",
     nav: [
       {
         text: 'Home',
