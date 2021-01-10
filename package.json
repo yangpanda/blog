@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "vuepress build docs && git add . && git commit -m \"update\" && git push origin"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.1"
+  }
+}
