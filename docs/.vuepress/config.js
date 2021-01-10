@@ -1,7 +1,6 @@
 module.exports = {
   title: '疯狂蜗牛',
   description: 'Coding......',
-  base: '/blog/',
   dest: 'dist',
   theme: 'reco',
   themeConfig: {
