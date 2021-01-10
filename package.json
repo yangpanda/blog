@@ -8,8 +8,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "vuepress build docs && git add . && git commit -m \"update\" && git push origin"
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.1"
