@@ -8,14 +8,34 @@ module.exports = {
     author: 'yangpanda',
     smoothScroll: true,
     lastUpdated: "Last Updated",
+    sidebar: {
+      '/css/': [
+        {
+          title: 'CSS',
+          children: [
+            ['layout', '网页布局'],
+            ['mobile', '移动端适配']
+          ]
+        }
+      ],
+      '/javascript/': [
+        {
+          title: 'JavsScript',
+          children: [
+            ['data-types', '数据类型'],
+            ['operators', '运算符']
+          ]
+        }
+      ]
+    },
     nav: [
       {
-        text: 'Home',
+        text: '首页',
         link: '/',
         icon: 'reco-home'
       },
       {
-        text: 'TimeLine',
+        text: '时间轴',
         link: '/timeline/',
         icon: 'reco-date'
       },
@@ -34,11 +54,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2,
-        text: 'Category'
+        text: '分类'
       },
       tag: {
         location: 3,
-        text: 'Tag'
+        text: '标签'
       }
     },
   }
